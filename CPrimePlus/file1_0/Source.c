@@ -1,18 +1,18 @@
 #pragma warning(disable:4996)
 
-//#include<stdio.h>
-//int main() {
-//	FILE *fp = fopen("c:/users/pc/desktop/1.txt", "wb");
-//	//int a = 1;
-//	double a = 1.0;
-//	
-//	fwrite(&a, sizeof(a), 1,fp);
-//	fclose(fp);
-//
-//	puts("Done");
-//	getchar();
-//}
-//
+#include<stdio.h>
+int main() {
+	FILE *fp = fopen("c:/users/pc/desktop/1.txt", "wb");
+	//int a = 1;
+	double a = 0.0; 
+	
+	fwrite(&a, sizeof(a), 1,fp);
+	fclose(fp);
+
+	puts("Done");
+	getchar();
+}
+
 
 //#include<stdio.h>  // 为了使用FILE, fgets 等
 //#define MAXSIZE 1024
