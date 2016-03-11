@@ -12,7 +12,7 @@ int main(void) {
 		time += 1.0 / power_of_2;
 		printf("time = %f when terms = %d.\n", time, t_ct);
 
-	}
+	}    
 	
 	getchar();
 	getchar();
