@@ -1,17 +1,17 @@
 #pragma warning(disable:4996)
 
-#include<stdio.h>
-int main() {
-	FILE *fp = fopen("c:/users/pc/desktop/1.txt", "wb");
-	//int a = 1;
-	double a = 0.0; 
-	
-	fwrite(&a, sizeof(a), 1,fp);
-	fclose(fp);
-
-	puts("Done");
-	getchar();
-}
+//#include<stdio.h>
+//int main() {
+//	FILE *fp = fopen("c:/users/pc/desktop/1.txt", "wb");
+//	//int a = 1;
+//	double a = 0.0; 
+//	
+//	fwrite(&a, sizeof(a), 1,fp);
+//	fclose(fp);
+//
+//	puts("Done");
+//	getchar();
+//}
 
 
 //#include<stdio.h>  // 为了使用FILE, fgets 等
@@ -174,3 +174,25 @@ int main() {
 //int main() {
 //	printHex(myVar);
 //}
+
+
+#include<stdio.h>
+int main() {
+	//char c;
+
+
+	//while ((c = getchar()) != EOF) {
+	//	putchar(c);
+	//}
+
+	//char ch1=getchar();
+
+
+	char str[81];
+	gets(str);
+	
+	puts(str);
+	char ch2=getchar();
+	
+	return 0;
+}
