@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="mycookie.js"></script>
+</head>
+<body onload="start()">
+    <form name="frmSet" action="">
+        Enter name:
+        <input type="text" name="clerk" />
+        <input type="button" value="Set Cookie" onclick="set()" />
+    </form>
+    <br />
+    <form name="frmDel" action="">
+        Enter name:
+        <input type="text" name="clerk" />
+        <input type="button" value="Del Cookie" onclick="del()" />
+    </form>
+    <br />
+    <form name="frmRd" action="">
+        <input type="button" value="Read Cookie" onclick="read()" />
+        <textarea name="txtCookie" rows="8" cols="100"></textarea>
+    </form>
+</body>
+</html>

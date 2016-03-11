@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+        function Redirect() {
+            if (--sec > 0) {
+                document.body.innerHTML = "";
+                document.write(`You will be redirected to our main page in ${sec} seconds!`);
+            }
+            else
+                window.location = "http://www.baidu.com";
+        }
+        var sec = 5;
+        document.write(`You will be redirected to our main page in ${sec} seconds!`);
+        setInterval('Redirect()', 1000);
+    </script>
+</head>
+<body>
+</body>
+</html>

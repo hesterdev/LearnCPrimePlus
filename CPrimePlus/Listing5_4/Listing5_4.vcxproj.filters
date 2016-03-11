@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="printout.c">
+    <ClCompile Include="squares.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

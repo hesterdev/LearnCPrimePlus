@@ -1,0 +1,22 @@
+// floating-point comparisons
+#pragma warning (disable:4996)
+#include<math.h>
+#include<stdio.h>
+#include<float.h>
+int main(void) {
+	const double ANSWER = 3.14159;
+	double response;
+
+	printf("What is the value of pi?\n");
+	scanf("%lf", &response);
+
+	while (fabs(response - ANSWER) > FLT_EPSILON) {
+		printf("Try again!\n");
+		scanf("%lf", &response);
+	}
+	printf("Close enough!\n");
+
+	getchar();
+	getchar();
+	return 0;
+}

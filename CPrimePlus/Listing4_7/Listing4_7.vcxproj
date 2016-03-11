@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AB3FA074-7AEE-4A1B-8A6F-D1A3D63D43D5}</ProjectGuid>
-    <RootNamespace>Listing4_6</RootNamespace>
+    <ProjectGuid>{E5B4FB4F-3E24-4C0D-8502-9004F0468BAB}</ProjectGuid>
+    <RootNamespace>Listing4_7</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,7 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="printout.c" />
+    <ClCompile Include="width.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
