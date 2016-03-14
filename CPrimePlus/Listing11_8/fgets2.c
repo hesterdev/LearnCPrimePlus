@@ -12,7 +12,7 @@ int main(void) {
 		ptr = fgets(words, STLEN, stdin);
 		if (ptr != NULL) {
 			if (words[0] != '\n') {
-
+				fputs(words, stdout);
 			}
 			else
 				break;

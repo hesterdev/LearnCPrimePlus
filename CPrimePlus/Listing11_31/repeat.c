@@ -1,0 +1,13 @@
+/* repeat.c -- main() with arguments */
+#include<stdio.h>
+int main(int argc, char*argv[]) {
+
+	int count;
+	printf("The command line has %d arguments: \n", argc);
+	for (count = 0; count < argc; count++)
+		printf("%d: %s\n", count, argv[count]);
+	printf("\n");
+
+	puts("Done");
+	getchar();
+}

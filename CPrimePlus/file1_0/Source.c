@@ -188,10 +188,14 @@ int main() {
 	//char ch1=getchar();
 
 
-	char str[81];
+	/*char str[81];
 	gets(str);
 	
-	puts(str);
+	puts(str);*/
+
+	printf("%zd\n", sizeof(long));
+
+
 	char ch2=getchar();
 	
 	return 0;

@@ -115,11 +115,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AlertDialog.html" />
+    <Content Include="ConfirmationDialogBox.html" />
+    <Content Include="constructor.html" />
     <Content Include="cookie.js" />
+    <Content Include="defining_methods_for_an_object.html" />
     <Content Include="Example2.html" />
     <Content Include="Example3.html" />
     <Content Include="getMonth.html" />
     <Content Include="getMonth.js" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="HtmlPage2.html" />
+    <Content Include="HtmlPage3.html" />
     <Content Include="ie.html" />
     <Content Include="javascript.html" />
     <Content Include="js2.js" />
@@ -127,14 +134,21 @@
     <Content Include="mycookie.html" />
     <Content Include="mycookie.js" />
     <Content Include="nodeex.js" />
+    <Content Include="Object.html" />
     <Content Include="pageredirection.html" />
+    <Content Include="POSITIVE_INFINITY.html" />
+    <Content Include="PromptDialogBox.html" />
+    <Content Include="Prototype.html" />
     <Content Include="readcookie.html" />
     <Content Include="refresh.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="StoringCookies.html" />
     <Content Include="storingcookies.js" />
+    <Content Include="this_refer_to_the_object.html" />
+    <Content Include="void.html" />
     <Content Include="Web.config" />
+    <Content Include="with.html" />
     <Content Include="writecookie.html" />
   </ItemGroup>
   <ItemGroup>
