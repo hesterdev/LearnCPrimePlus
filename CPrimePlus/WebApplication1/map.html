@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+        var start;
+        var now;
+        const sec = 5;
+        document.onmousemove = function () {
+            start = new Date();
+        }
+
+        var ticket=setInterval(function () {
+            now = new Date();
+            if ((now - start) / 1000 > sec) {
+                window.location = "https://www.baidu.com/";
+                clearInterval(ticket);
+            }
+        },100);
+
+    </script>
+</head>
+<body>
+    <p>无操作15s后跳转到百度</p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        function isBigEnough(element, index, array) {
+            return (element >= 10);
+        }
+        var passed = [12, 5, 8, 130, 44].every(isBigEnough);
+        document.write("First Test Value: " + passed + "<br/>");
+
+        passed = [12, 54, 18, 130, 44].every(isBigEnough);
+        document.write("Second Test Value: " + passed + "<br/>");
+    </script>
+</body>
+</html>
