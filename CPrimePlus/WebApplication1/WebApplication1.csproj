@@ -122,6 +122,7 @@
     <Content Include="constructor.html" />
     <Content Include="cookie.js" />
     <Content Include="defining_methods_for_an_object.html" />
+    <Content Include="DOM_method.html" />
     <Content Include="every.html" />
     <Content Include="Example2.html" />
     <Content Include="Example3.html" />

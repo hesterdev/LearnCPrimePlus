@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Title</title>
+    <meta charset="utf-8" />
+    <script>
+
+        function myFunc() {
+            var ret = document.getElementsByTagName("title");
+            alert("Document Title: " + ret[0].text);
+
+            var ret = document.getElementById("heading");
+            alert("Document URL: " + ret.innerHTML);
+        }
+    </script>
+</head>
+<body>
+   
+    <h1 id="heading">This is main title</h1>
+    <p>Click the following to see the result: </p>
+    <form action="/" method="post" id="form1" name="FirstForm">
+        <input type="button" name="name" onclick="myFunc()" value="Click Me" />
+        <input type="button" name="name" value="Cancel" />
+    </form>
+
+    <form action="" method="post" id="form2" name="SecondForm">
+        <input type="button" name="name" value="Don't ClickMe" />
+    </form>
+</body>
+</html>
