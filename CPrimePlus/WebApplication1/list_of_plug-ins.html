@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Plug-Ins</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+
+
+    <table border="1">
+        <tr>
+            <th>Plug-in Name</th>
+            <th>Filename</th>
+            <th>Description</th>
+            <th>mimeType</th>
+        </tr>
+        <script>
+            for (var i = 0; i < navigator.plugins.length; i++) {
+                var line = `
+                    <tr>
+                        <td>${navigator.plugins[i].name}</td>
+                        <td>${navigator.plugins[i].filename}</td>
+                        <td>${navigator.plugins[i].description}</td>
+                        <td>${navigator.plugins[i].description}</td>
+                    </tr>
+                    `;
+                document.write(line);
+            }
+        </script>
+    </table>
+</body>
+</html>

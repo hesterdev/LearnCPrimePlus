@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rollover with a Mouse Events</title>
+	<meta charset="utf-8" />
+    <script>
+        if (document.images) {
+            var image1 = new Image(); // Preload an image
+            image1.src="Images/搜狗截图20150829210306.png";
+            var image2=new Image();// Preload second image
+            image2.src = "Images/original_9wMh_4162000079321191.gif";
+        }
+    </script>
+</head>
+<body>
+    <p>Move your mouse over the image to see the result</p>
+    <a href="#" onmouseover="document.myImage.src=image2.src"
+       onmouseout="document.myImage.src = image1.src;">
+        <img src="Images/original_9wMh_4162000079321191.gif" name="myImage"/>
+    </a>
+</body>
+</html>

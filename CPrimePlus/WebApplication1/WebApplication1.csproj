@@ -117,7 +117,15 @@
   <ItemGroup>
     <Content Include="AlertDialog.html" />
     <Content Include="anchor.html" />
+    <Content Include="animation.html" />
+    <Content Include="BrowserDetection.html" />
+    <Content Include="Checking_For_Plug-Ins.html" />
+    <Content Include="controlling_multimedia.html" />
+    <Content Include="ImageMap.html" />
+    <Content Include="Images\original_9wMh_4162000079321191.gif" />
+    <Content Include="Images\temp1.png" />
     <Content Include="array.html" />
+    <Content Include="automated_animation.html" />
     <Content Include="ConfirmationDialogBox.html" />
     <Content Include="constructor.html" />
     <Content Include="cookie.js" />
@@ -126,6 +134,7 @@
     <Content Include="every.html" />
     <Content Include="Example2.html" />
     <Content Include="Example3.html" />
+    <Content Include="exception.html" />
     <Content Include="filter.html" />
     <Content Include="forEach.html" />
     <Content Include="getMonth.html" />
@@ -134,8 +143,11 @@
     <Content Include="HtmlPage2.html" />
     <Content Include="HtmlPage3.html" />
     <Content Include="ie.html" />
+    <Content Include="Images\搜狗截图20150829210306.png" />
+    <Content Include="Images\柳条大雁.swf" />
     <Content Include="javascript.html" />
     <Content Include="js2.js" />
+    <Content Include="list_of_plug-ins.html" />
     <Content Include="localeCompare.html" />
     <Content Include="main.js" />
     <Content Include="map.html" />
@@ -144,6 +156,8 @@
     <Content Include="mycookie.js" />
     <Content Include="nodeex.js" />
     <Content Include="Object.html" />
+    <Content Include="onerror.html" />
+    <Content Include="onerror_img.html" />
     <Content Include="pageredirection.html" />
     <Content Include="POSITIVE_INFINITY.html" />
     <Content Include="PromptDialogBox.html" />
@@ -153,6 +167,7 @@
     <Content Include="RegExp_exec.html" />
     <Content Include="regexp_global.html" />
     <Content Include="replace.html" />
+    <Content Include="rollover.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="search.html" />
@@ -163,6 +178,7 @@
     <Content Include="substr.html" />
     <Content Include="switch_words_in_a_string.html" />
     <Content Include="this_refer_to_the_object.html" />
+    <Content Include="validation.html" />
     <Content Include="void.html" />
     <Content Include="Web.config" />
     <Content Include="with.html" />
@@ -184,6 +200,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
