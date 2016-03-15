@@ -199,6 +199,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="教程\javascript_tutorial.pdf" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
