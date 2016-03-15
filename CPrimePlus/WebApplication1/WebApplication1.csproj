@@ -149,6 +149,8 @@
     <Content Include="Prototype.html" />
     <Content Include="readcookie.html" />
     <Content Include="refresh.html" />
+    <Content Include="RegExp_exec.html" />
+    <Content Include="regexp_global.html" />
     <Content Include="replace.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
