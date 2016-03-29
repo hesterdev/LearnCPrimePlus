@@ -160,6 +160,7 @@
     <Content Include="onerror_img.html" />
     <Content Include="pageredirection.html" />
     <Content Include="POSITIVE_INFINITY.html" />
+    <Content Include="print_console_log.html" />
     <Content Include="PromptDialogBox.html" />
     <Content Include="Prototype.html" />
     <Content Include="readcookie.html" />
